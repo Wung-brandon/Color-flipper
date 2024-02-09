@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.background{
+    background-color: black;
+    color: white;
+    width: 40%;
+    height: 70px;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 310px;
+}
+button{
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    border: 3px solid rgba(255, 170, 1, 0.804);
+    margin-top: 50px;
+    margin-left: 450px;
+    /* margin-right: 30px; */
+    border-radius: 4px;
+}
+button:hover{
+    transition: all 1s ease;
+    background-color: rgba(209, 85, 2, 0.804);
+    transform: skew(-15deg);
+}
